@@ -1,10 +1,10 @@
 /*
- * fork(), wait(), exec(), and signal() comprise the main machinery via which processed are started 
+ * fork(), wait(), exec(), and signal() comprise the main machinery via which processes are started 
  * and communicate in a UNIX system; all systems running under a Unix OS are created this way from 
- * one common parent with multiple (thousends) of children 
+ * one common parent with multiple (potentially thousands and more) children 
  *
- * a shell is a 'job control system' that
- * can create and communicate between processes with relatively low level access to OS capabilities.
+ * a shell on the other hand is just a 'job control system' that can create and 
+ * communicate between processes with relatively low level access to OS capabilities.
  *
  * see also: signal.c
  */
