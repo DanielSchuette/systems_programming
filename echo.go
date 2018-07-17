@@ -44,8 +44,8 @@ func copy(c net.Conn, q chan struct{}) {
 	if err != nil {
 		fmt.Printf("error writing to connection: %v\n", err)
 	}
-	defer func(q chan struct{}) {
+	defer func(b int64, q chan struct{}) {
 		fmt.Printf("wrote %d bytes and removed goroutine from queue\n", b)
 		<-q
-	}(q)
+	}(b, q)
 }
