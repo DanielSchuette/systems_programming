@@ -14,3 +14,11 @@ Resources I use:
 
 3. [Operating Systems: Principles and Practice](https://www.amazon.com/Operating-Systems-Principles-Thomas-Anderson/dp/0985673524/ref=sr_1_4?ie=UTF8&qid=1531788085&sr=8-4&keywords=operating+systems)
 
+4. Some more lecture [notes](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/)
+
+## Linux Kernel Map
+
+From *https://i.imgur.com/4sftcoo.jpg*
+
+![](resources/linux_kernel_map.jpg)
+
