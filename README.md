@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository is for personal use only. I will commit all kinds of experimental programms while exploring how operating systems work.
+This repository is for personal use only. I will commit all kinds of experimental programs while exploring how operating systems work.
 
 ## Resources
 
@@ -15,6 +15,8 @@ Resources I use:
 3. [Operating Systems: Principles and Practice](https://www.amazon.com/Operating-Systems-Principles-Thomas-Anderson/dp/0985673524/ref=sr_1_4?ie=UTF8&qid=1531788085&sr=8-4&keywords=operating+systems)
 
 4. Some more lecture [notes](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/)
+
+5. [Advanced Programming in the UNIX Environment](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739)
 
 ## Linux Kernel Map
 
