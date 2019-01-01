@@ -1,7 +1,8 @@
 /*
- * A simple shell-like program that
- * reads from stdin and executes
- * commands.
+ * A simple shell-like program that reads 
+ * from stdin and executes commands.
+ * It depends on the APUE header and its
+ * error handling routines in `error.c'.
  */
 #include "apue.h"
 #include <sys/wait.h>
