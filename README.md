@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository is for personal use only. I will commit all kinds of experimental programs while exploring how operating systems work.
+This repository is for personal use only. It has all kinds of experimental programs that explore how operating systems work. Most source files require either only `glibc` for compilation or error handlers that are defined in `error.c` and `log.c`. In these cases, `Makefile`s exist to make life easier.
 
 ## Resources
 
