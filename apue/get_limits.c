@@ -14,6 +14,7 @@
 #include "apue.h"
 #include <errno.h>
 #include <limits.h>
+#include <unistd.h>
 
 #ifdef PATH_MAX
 static long pathmax = PATH_MAX;
@@ -70,4 +71,22 @@ char *path_alloc(size_t *sizep)
     if (sizep != NULL)
         *sizep = size;
     return ptr;
+}
+
+int main(int argc, char **argv)
+{
+    size_t  s = 0;
+    char    *pname;
+       
+    pname = path_alloc(&s);
+    printf("%s: allocated %ld bytes\n", argv[0], s);
+
+    if (argc == 2)
+        strcpy(pname, argv[1]);
+    else
+        getcwd(pname, s);
+
+    printf("%s: pname = %s\n", argv[0], pname);
+    free(pname);
+    return 0;
 }
